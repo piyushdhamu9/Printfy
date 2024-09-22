@@ -1,5 +1,5 @@
 import React from 'react';
-import avatar from '../assets/avatar.png'; // Import the PNG image
+import avatar from '../assets/avatar.png';
 
 const ReviewHeader = () => {
   return (
@@ -67,7 +67,7 @@ const ReviewSection = () => {
           review="We chose Printify because of their offerings as well as their incredibly low prices. After several years, we've come to find that their customer service is also top notch, and their platform just keeps getting better and better."
         />
         <ReviewCard
-          imageSrc={avatar} // Use the imported PNG image here
+          imageSrc={avatar}
           name="Nikki"
           role="Store link"
           review="Printify has been amazing for us as we grow our business, facilitating the best choices we can make for our customers. The Customer Service team is exceptional and makes the whole process a breeze."

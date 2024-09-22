@@ -10,7 +10,7 @@ const HeroSection = () => {
     {
       title: "Higher Profits",
       description: "We offer some of the lowest prices in the industry because print providers continuously compete to win your business.",
-      icon: png1, // Replace with your SVG path
+      icon: png1,
     },
     {
       title: "Robust Scaling",

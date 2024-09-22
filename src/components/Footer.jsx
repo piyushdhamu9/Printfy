@@ -1,4 +1,3 @@
-// src/components/Footer.jsx
 import React from 'react';
 import logo from '../assets/Logo.svg';
 import facebook from '../assets/facebook-icon.svg';
@@ -119,7 +118,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        
+
         {/* Footer Bottom Section */}
         <div className="w-full border-t border-gray-300 pt-4 mt-10 pb-5">
           <div className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-10">

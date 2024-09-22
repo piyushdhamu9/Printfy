@@ -5,22 +5,22 @@ function Navbar() {
   return (
     <nav className="bg-white shadow-2xl">
       <div className="container mx-auto flex justify-around items-center py-2 px-6">
-       
+
         <div className="text-green-600 text-xl font-bold cursor-pointer">
           <img href="/" src={logo} alt="Printify" />
         </div>
 
- 
+
         <ul className="flex space-x-6 text-gray-600">
           <li className="relative group">
             <a href="#catalog" className="hover:text-green-600">Catalog</a>
           </li>
-          
-       
+
+
           <li className="relative group">
             <a href="#how-it-works" className="hover:text-green-600 flex items-center">
               How it works
-            
+
               <svg className="ml-1 w-4 h-4 transform group-hover:rotate-180 transition-transform duration-200" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
               </svg>
@@ -41,11 +41,11 @@ function Navbar() {
             <a href="#blog" className="hover:text-green-600">Blog</a>
           </li>
 
-         
+
           <li className="relative group">
             <a href="#services" className="hover:text-green-600 flex items-center">
               Services
-         
+
               <svg className="ml-1 w-4 h-4 transform group-hover:rotate-180 transition-transform duration-200" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
               </svg>
